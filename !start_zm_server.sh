@@ -19,6 +19,7 @@ echo ""$NOW" $NAME server started."
 while true
 do
 wine start /wait /abovenormal z:$_mydir/t6rzm.exe -dedicated +sv_config $CFG +net_port $PORT  ## expects t6rzm.exe to be in same directory as this script
+#xvfb-run wineconsole t6rzm.exe -dedicated +sv_config $CFG +net_port $PORT #use this line instead if you are running headless
 printf -v NOW '%(%F_%H:%M:%S)T' -1
 echo ""$NOW" WARNING: $NAME server closed or dropped... server restarting."
 sleep 1
