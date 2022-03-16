@@ -1,6 +1,6 @@
 @echo off
 ::Name of the server's title
-set name=Plutonium T6 Dedicated Server (r2748) - SERVER NAME GOES HERE AND ALSO EDIT (r2748) TO WHATEVER LASTEST
+set name=Plutonium T6 Dedicated Server (r2811) - SERVER NAME GOES HERE AND ALSO EDIT (r2811) TO WHATEVER LASTEST
 ::Only change this when you don't want to keep the bat files in the game folder. 
 ::MOST WON'T NEED TO EDIT THIS!
 set gamepath=%cd%
