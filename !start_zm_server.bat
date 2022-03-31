@@ -18,6 +18,6 @@ echo (%date%)  -  (%time%) %name% server start.
 
 cd /D %LOCALAPPDATA%\Plutonium
 :server
-start /wait /abovenormal bin\plutonium-bootstrapper-win32.exe t6zm "%gamepath%" -dedicated +set key %key% +sv_config %cfg% +net_port %port%
+start /wait /abovenormal bin\plutonium-bootstrapper-win32.exe t6zm "%gamepath%" -dedicated +set key %key% +sv_config %cfg% +net_port %port% +map_rotate
 echo (%date%)  -  (%time%) WARNING: %name% server closed or dropped... server restarts.
 goto server
