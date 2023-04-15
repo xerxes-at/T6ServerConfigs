@@ -1,7 +1,6 @@
 # T6ServerConfigs
-This repo contains the T6 Dedicated Server Config for PlutoniumT6
+This repo contains the T6 Dedicated Server Config for PlutoniumT6. Learn more by visiting the [Plutonium Documentation](https://plutonium.pw/docs/server/t6/setting-up-a-server/)
 
-Tutorials on how to use them can be found on:
+Or one of our communities tutorial's
 * [AWOG Community Forum](https://forum.awog.at/topic/32/)
-* [Plutonium Forum](https://forum.plutonium.pw/topic/13)
 * [REACTion Gaming Forum](https://reactiongaming.us/community/threads/how-to-setup-your-dedicated-server-for-plutot6.1358/)
